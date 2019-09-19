@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/rColorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="R: 0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/rColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:max="255"
+        android:progress="1"
+        android:indeterminate="false"/>
+
+    <TextView
+        android:id="@+id/gColorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="G: 0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/gColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:max="255"
+        android:progress="1"
+        android:indeterminate="false"/>
+
+    <TextView
+        android:id="@+id/bColorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="B: 0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/bColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:max="255"
+        android:progress="1"
+        android:indeterminate="false"/>
+
+    <TextView
+        android:id="@+id/Color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="#FFFFFF"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        tools:fontFamily="@font/baloo_da" />
+
+    <View
+        android:id="@+id/colorSample"
+        android:layout_width="350dp"
+        android:layout_height="179dp"
+        android:layout_margin="20dp" />
+</LinearLayout>
